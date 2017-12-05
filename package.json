@@ -1,0 +1,33 @@
+{
+  "name": "syntaxtest",
+  "version": "1.0.0",
+  "description": "test demo list",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "webpack --config ./build/webpack.base.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doujiao-pengpeng/syntaxTest.git"
+  },
+  "author": "doujiao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/doujiao-pengpeng/syntaxTest/issues"
+  },
+  "homepage": "https://github.com/doujiao-pengpeng/syntaxTest#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "css-loader": "^0.28.7",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.19.0",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.5"
+  }
+}
